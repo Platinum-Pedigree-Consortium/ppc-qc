@@ -1,0 +1,11 @@
+## This folder contains reported stable diploid regions as defined in method section 'Definition of stable diploid regions'.
+
+Stable diploid regions were defined with respect to Verkko assemblies of G1-G3.
+In short a stable diploid region is defined as a region where phased genome assemblies report exactly one contig alignment for haplotype 1 as well as haplotype 2 and are assigned as ‘2n’ regions. Any region with two and more alignments per haplotype is assigned as ‘multi’ alignment. Lastly, regions with only single contig alignment in a single haplotype are assigned as ‘1n’ regions.
+
+There are two folders. One reporting stable diploid regions with respect to T2T-CHM13 and the orther with respect to GRCh38 reference.
+
+There are also a number useful visualisations:
+'_asm2ref_ctgCoverage_plots.pdf' - Visualisation of stable diploid regions as well as other ploidy regions on top each sample specific ideogram
+'mm2Alignments_unassignedCTGs_' - Visualisation of all haplotype unassigned contigs on top each sample specific ideogram
+'mm2Alignments_verkko_' - Visualisation of scaffolded verkko contigs on top each sample specific ideogram. Only alignments of mapping quality >=10 and at least 500 kbp size are shown. 
